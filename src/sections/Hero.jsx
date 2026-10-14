@@ -23,7 +23,7 @@ function Hero({ introComplete }) {
       <div className={`portrait${photoLoaded ? ' has-photo' : ''}`}>
         <img
           className="portrait-photo"
-          src="/profile.png"
+          src={`${import.meta.env.BASE_URL}profile.png`}
           alt="Portrait of Sun VannaRith"
           onLoad={() => setPhotoLoaded(true)}
           onError={(event) => { event.currentTarget.style.display = 'none' }}

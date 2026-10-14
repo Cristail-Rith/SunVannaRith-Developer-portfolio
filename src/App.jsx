@@ -60,7 +60,7 @@ function App() {
               <div className="intro-progress"><span /></div>
               <p className="intro-caption">Designing <i>·</i> Building <i>·</i> Learning</p>
             </div>
-            <div className="intro-portrait"><span className="intro-orbit" /><img src="/profile.png" alt="" /><span className="intro-coordinate">SV / 2026</span></div>
+            <div className="intro-portrait"><span className="intro-orbit" /><img src={`${import.meta.env.BASE_URL}profile.png`} alt="" /><span className="intro-coordinate">SV / 2026</span></div>
             <div className="intro-bottomline"><span>Welcome to my world</span><span>Loading experience <i>↗</i></span></div>
           </div>
         </div>

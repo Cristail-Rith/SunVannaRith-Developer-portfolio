@@ -1,17 +1,44 @@
-# React + Vite
+# Sun VannaRith — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio built with React and Vite. It includes an introduction, skills, selected projects, and contact links.
 
-Currently, two official plugins are available:
+## Project layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```text
+public/                 Static files copied directly into the site
+src/
+  assets/               Images and assets imported by components
+  components/
+    layout/             Shared page layout (navigation and footer)
+    ui/                 Reusable interface components
+  data/                 Portfolio project and skills content
+  sections/             Main page sections
+  styles/               Global styles and design variables
+  App.jsx               Page composition
+  main.jsx              React entry point
+.github/workflows/      GitHub Pages deployment workflow
+```
 
-## React Compiler
+## Run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Requires Node.js 22.12 or newer.
 
-## Expanding the ESLint configuration
+```sh
+npm ci
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# SunVannaRith-Developer-portfolio
+## Build
+
+```sh
+npm run build
+npm run preview
+```
+
+The production site is generated in `dist/`, which is excluded from Git.
+
+## Deploy to GitHub Pages
+
+The workflow in `.github/workflows/deploy.yml` builds and deploys the site whenever changes are pushed to `main`. In the repository on GitHub, open **Settings → Pages** and set the build and deployment source to **GitHub Actions**. After the workflow completes, GitHub Pages will show the published site URL there.
+
+The workflow sets Vite's base path from the repository name, so the site and its public assets work at the GitHub Pages project URL.
