@@ -22,7 +22,8 @@ function Footer() {
           <div className="footer-column">
             <p className="footer-label">Find me</p>
             <div className="footer-links">
-              <a href="mailto:your.email@example.com">Email <span aria-hidden="true">↗</span></a>
+              <a href="mailto:sovvanrith72@gmail.com">Email <span aria-hidden="true">↗</span></a>
+              <a href="https://t.me/RithITEngineer" target="_blank" rel="noreferrer">Telegram <span aria-hidden="true">↗</span></a>
               <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
               <a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
             </div>

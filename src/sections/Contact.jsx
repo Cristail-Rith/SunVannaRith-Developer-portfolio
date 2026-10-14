@@ -19,10 +19,10 @@ function Contact() {
             <h3>Let’s connect.</h3>
             <p>Send a message or find me on these platforms.</p>
             <div className="contact-actions">
-              <Button href="mailto:your.email@example.com" primary>Send a message <span aria-hidden="true">↗</span></Button>
+              <Button href="mailto:sovvanrith72@gmail.com" primary>Send an email <span aria-hidden="true">↗</span></Button>
               <div className="contact-socials">
-                <Button href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></Button>
-                <Button href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></Button>
+                <Button href="https://t.me/RithITEngineer" target="_blank" rel="noreferrer">Telegram <span aria-hidden="true">↗</span></Button>
+                <Button href="mailto:sovvanrith72@gmail.com">Email <span aria-hidden="true">↗</span></Button>
               </div>
             </div>
             <div className="contact-card-foot"><span>Web</span><i /> <span>Hardware</span><i /> <span>Ideas</span></div>
